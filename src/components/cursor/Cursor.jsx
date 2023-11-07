@@ -12,6 +12,9 @@ const Cursor = () => {
 
         window.addEventListener("mousemove" , mouseMove);
 
+
+
+        
         return()=>{
             window.removeEventListener("mousemove" , mouseMove);
         };
